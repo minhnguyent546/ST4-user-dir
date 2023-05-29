@@ -1,0 +1,3 @@
+## Sublime-text user directory for backup
+
+My sublime-text user directory of ST4 on OS Ubuntu 20.04 contains settings, keybinding, list of installed packages, ... 
