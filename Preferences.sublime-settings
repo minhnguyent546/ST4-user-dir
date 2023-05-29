@@ -1,0 +1,40 @@
+{
+	"font_size": 10,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true, // using space
+	 // "word_wrap": true,
+	"indent_to_bracket": false, // set to `true` to add white space up to the first open bracket when indenting
+	"auto_complete_commit_on_tab": true, // disabled autocomplete when pressing enter
+	"auto_match_enabled": true,
+	"save_on_focus_lost": true,
+	"auto_save_on_modified": false,
+	"auto_complete": true,
+	"spell_check": true,
+	"highlight_line": true,
+	"bold_folder_labels": true,
+	"show_rel_path": true,
+	"trim_trailing_white_space_on_save": "all",
+	// Spacing between the gutter and the text
+	"margin": 0,
+	"theme": "Monokai Classic.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Monokai Classic.sublime-color-scheme",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html, text.xml",
+		},
+		{
+			"rhs_empty": true,
+			"selector": "punctuation.accessor",
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex",
+		}
+	],
+}
