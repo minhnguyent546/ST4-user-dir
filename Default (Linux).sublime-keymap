@@ -7,6 +7,12 @@
 	{ "keys": ["ctrl+e"], "command": "toggle_side_bar" },
 	{ "keys": ["ctrl+shift+i"], "command": "find_all_under" },
 
+	// { "keys": ["ctrl+b", "ctrl+l"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	// { "keys": ["ctrl+e", "ctrl+l"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
 	// not a custom but put here to remember
 	{ "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "smart"} },
 	{ "keys": ["ctrl+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
